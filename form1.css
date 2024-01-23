@@ -1,0 +1,65 @@
+legend{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+form{
+    background-color: cyan;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+div{
+    display: flex;
+}
+button[type=submit]{
+    color: white;
+    background-color: green;
+    width: 20%;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+button[type=reset]{
+    color: white;
+    background-color: darkblue;
+    width: 20%;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+input[type=text],input[type=date]{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    display: inline;
+
+}
+select{
+     width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin:auto ;
+    display: inline;
+
+}
+textarea{
+      width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin:auto;
+    display: inline;
+}
+input[type=radio]{
+    margin-inline: 30px;
+    padding-inline: 20px;
+
+}
